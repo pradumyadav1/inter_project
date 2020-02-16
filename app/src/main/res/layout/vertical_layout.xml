@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#87ce"
+    android:layout_height="wrap_content">
+    <androidx.recyclerview.widget.RecyclerView
+        android:background="#000"
+        android:layout_margin="10dp"
+        android:paddingLeft="10dp"
+        android:layout_gravity="center_horizontal"
+        android:padding="5dp"
+        android:orientation="horizontal"
+        android:id="@+id/horizanterrecy"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></androidx.recyclerview.widget.RecyclerView>
+    <TextView
+        android:textStyle="italic"
+        android:id="@+id/vertiacalText"
+        android:padding="5dp"
+        android:textSize="40dp"
+        android:text="Something"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

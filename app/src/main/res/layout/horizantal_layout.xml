@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#000"
+    android:padding="5dp"
+    android:orientation="horizontal" android:layout_width="350dp"
+    android:layout_height="350dp">
+
+
+
+    <ImageView
+        android:background="#fff"
+        android:layout_margin="5dp"
+        android:layout_gravity="center_horizontal"
+        android:padding="5dp"
+        android:id="@+id/horizantalImage"
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="350dp"
+        android:layout_height="350dp" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <WebView
+            android:id="@+id/videovew"
+            android:layout_width="350dp"
+            android:layout_height="550dp"></WebView>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
